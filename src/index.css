@@ -1,0 +1,24 @@
+html {
+  background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+  font-size: 1.1rem;
+  font-family: "Quicksand", sans-serif;
+  height: 100%;
+}
+* {
+  color: white;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  background: #fd4a4a;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ea3a3a;
+}

@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #fe7575;
+  padding: 10px 20px;
+}
+
+input {
+  background: #ff6666;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+input::placeholder {
+  color: rgb(219, 219, 219);
+  text-align: center;
+  transition: 0.3s;
+}
+
+input:focus {
+  outline: 1px solid #c95959;
+}
